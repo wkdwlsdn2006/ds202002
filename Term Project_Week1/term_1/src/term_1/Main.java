@@ -15,7 +15,7 @@ public class Main {
 		int min,max;
 		int[] v = new int[size];
 		
-		if(a > b || b > size) System.out.println("Àß¸øµÈ ±¸°£ÀÔ´Ï´Ù.");
+		if(a > b || b > size) System.out.println("ì˜ëª»ëœ êµ¬ê°„ì…ë‹ˆë‹¤.");
 		else {
 			for(int i = 0 ; i < size ; i++) {
 				v[i] = rand.nextInt();
@@ -26,16 +26,16 @@ public class Main {
 		
 		
 			for(int i = a-1 ; i < b ; i++) {
-		        if(min > v[i]) min = v[i];
+		                if(min > v[i]) min = v[i];
 				if(max < v[i]) max = v[i];
 			}
 		
-			System.out.println("ÃÖ¼Ú°ª : "+min);
-			System.out.println("ÃÖ´ñ°ª : "+max);
+			System.out.println("ìµœì†Ÿê°’ : "+min);
+			System.out.println("ìµœëŒ“ê°’ : "+max);
 		
 			int sum = min + max;
 		
-			System.out.println("ÃÖ¼Ú°ª°ú ÃÖ´ñ°ª ÇÕ°è : "+ sum);
+			System.out.println("ìµœì†Ÿê°’ê³¼ ìµœëŒ“ê°’ í•©ê³„ : "+ sum);
 		}
 		
 	}
